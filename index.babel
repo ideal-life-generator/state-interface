@@ -1,0 +1,17 @@
+import uniqueState from "unique-state"
+
+export default function stateInterface (StateInterface, initialState) {
+  class State extends StateInterface {
+    constructor (state) {
+      super()
+
+      Object.assign(this, uniqueState(state))
+    }
+
+    update (handler) {
+      return new State(handler(this))
+    }
+  }
+
+  return new State(initialState)
+}

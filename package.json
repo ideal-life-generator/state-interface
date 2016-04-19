@@ -1,0 +1,29 @@
+{
+  "author": {
+    "email": "ideal.life.generator@gmail.com",
+    "name": "Ideal Life"
+  },
+  "bugs": {
+    "email": "ideal.life.generator@gmail.com",
+    "url": "https://github.com/ideal-life/state-interface/issues"
+  },
+  "description": "Updating state as interface",
+  "homepage": "https://github.com/ideal-life/state-interface/#readme",
+  "keywords": [
+    "react",
+    "redux",
+    "state",
+    "state interface",
+    "state-interface"
+  ],
+  "license": "MIT",
+  "name": "state-interface",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ideal-life/state-interface.git"
+  },
+  "version": "1.0.3",
+  "dependencies": {
+    "unique-state": "^1.0.6"
+  }
+}
